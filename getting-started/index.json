@@ -1,0 +1,27 @@
+{
+    "title": "Getting started with Garden",
+    "description": "Run the vote app with Garden.io",
+    "details": {
+        "intro": {
+          "text": "intro.md",
+          "background": "background-ubuntu.sh",
+          "foreground": "foreground.sh"
+        },
+        "steps": [
+        {
+          "title": "Run the vote app with Garden.io",
+          "text": "step1.md"
+        },
+        {
+          "title": "Interacting with our REPL environment",
+          "text": "step2.md"
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "backend": {
+      "imageid": "ubuntu-4GB"
+    }
+  }
