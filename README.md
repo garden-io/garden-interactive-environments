@@ -21,6 +21,13 @@ _If you love Garden, please ★ star this repository to show your support :green
 
 Garden is a tool that combines rapid development, testing, and DevOps automation in one platform. It is designed for teams developing applications that run on Kubernetes and for DevOps Engineers writing infrastructure as code.
 
-This repository contains our interactive environments code (KillerCoda and CloudShell).
+If you want to get started with Garden in an online, interactive environment in less than 5 minutes, click any of the following buttons ⬇️
 
-[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://go.garden.io/cloudshell)
+<a href="https://go.garden.io/killercoda"><img src="./resources/img/killercoda-logo.png" alt="Killercoda logo in black and white." height="55px"/></a> [![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://go.garden.io/cloudshell)
+
+## Contribute
+
+Ways to contribute to this new initiative:
+
+- Submit ideas for new interactive scenarios in the form of a Github Issue towards this repository.
+- Report bugs/problems while running our scenarios.
