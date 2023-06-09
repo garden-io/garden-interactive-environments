@@ -4,7 +4,8 @@
 command -v rsync &> /dev/null || sudo apt-get install -y rsync
 
 # Install Garden if it's not already installed
-command -v garden &> /dev/null || (curl -sL https://get.garden.io/install.sh | bash > /dev/null) && sudo mv /root/.garden/bin/garden /usr/local/bin
+command -v garden &> /dev/null || (curl -sSL https://github.com/garden-io/garden/releases/download/0.13.2/garden-0.13.2-linux-amd64.tar.gz | tar xz && \
+sudo mv linux-amd64/* /usr/local/bin)
 
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 sudo chmod +x kubectl
